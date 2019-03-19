@@ -8,6 +8,8 @@
 </head>
 <body ng-controller="TextController">
 <h1>{{someText}}</h1>
+<h1>{{someText}}</h1>
+<h1>{{someText}}</h1>
 <script src="${pageContext.request.contextPath}/resources/js/1.0.4/angular/angular.min.js"></script>
 <script>
 function TextController($scope, $location) {
