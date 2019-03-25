@@ -9,7 +9,7 @@
 <body ng-controller="StartController">
 
 <form>
-当前并发：<input ng-change="computeQueryPerSecond()" ng-model="data.currentSimultaneously"><br>
+当前并发：<input  ng-model="data.currentSimultaneously"><br>
 当前QPS:     {{data.queryPerSecond}}
 </form>
 
@@ -23,7 +23,7 @@ function($scope) {
 	computeQueryPerSecond = function() {
 	$scope.data.queryPerSecond = $scope.data.currentSimultaneously * 10;
 	};
-	// 另一种方式 
+	// 另一种方式  
 	$scope.$watch('data.currentSimultaneously', computeQueryPerSecond);
 });
 </script>
