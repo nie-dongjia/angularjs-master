@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html ng-app=myAppModule>
+<html ng-app='myAppModule'>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>angular-master-chapter01</title>
