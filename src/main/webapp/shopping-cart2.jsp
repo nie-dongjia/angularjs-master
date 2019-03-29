@@ -57,7 +57,7 @@ function CartController($scope) {
 }
 /* 
  *  watch 性能注意事项   
- *  totalCart()加一个调试断点， 它被调用了 6 次之后才渲染页面 
+ *  totalCart()加一个调试断点， 它被调用了 6 次之后才渲染页面   性能有影响 
  */
 </script>
 </body>
